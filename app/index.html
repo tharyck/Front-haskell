@@ -16,9 +16,17 @@
     <script src="components/version/version-directive.js"></script>
     <script src="components/version/interpolate-filter.js"></script>
 
-    <!-- Application scripts: -->
-    <script src="core/app.js"></script>
-    <!--<script src="core/app-routes.js"></script>-->
+     <!-- Application scripts: -->
+     <script src="core/app.js"></script>
+     <script src="core/app.run.js"></script>
+     <script src="core/app.routes.js"></script>
+
+     <!-- Including controllers -->
+     <script src="core/controller/error/403Controller.js"></script>
+     <script src="core/controller/error/404Controller.js"></script>
+     <script src="core/controller/navController.js"></script>
+     <script src="core/controller/submitController.js"></script>
+
   </body>
 
   <div ui-view></div>
